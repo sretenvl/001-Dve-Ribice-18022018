@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="sr">
+	<head>
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="priprema, recept, Marinadiran losos, Dve ribice"/>
+    <meta name="description" content="Sajt recepata jela pravljenih od ribe."/>
+    <meta name="author" content="Sreten Vladisavljević"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>Dve ribice</title>
+	</head>
+
+  
+	<body>
+
+    <!--Navbar-->
+	  <nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+			  <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>
+			      <span class="icon-bar"></span>                        
+			    </button>
+			    <a class="navbar-brand" href="index.html"><img src = "img/logo-ribe2.png" id = "logo"/></a>
+			  </div>
+			  <div class="collapse navbar-collapse" id="myNavbar">
+			    <ul class="nav navbar-nav navbar-left">
+			      <li><a href="#opis">O strani</a></li>
+			      <li><a href="#recepti">Recepti</a></li>
+			      <li><a href="#galerija">Galerija</a></li>
+			      <li><a href="#forma">Glasanje</a></li>
+			      <li><a href="#autor">Autor</a></li>
+			    </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#" onclick="document.getElementById('id01').style.display='block'"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+			  </div>
+			</div>
+		</nav>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active img-responsive">
+            <img src="img/skusa-iz-rerne1200.png" alt="Skuša iz rerne">
+            <div class="carousel-caption">
+              <h1>Skuša iz rerne</h1>
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="img/zacinjen-som1200.png" alt="Začinjeni som">
+            <div class="carousel-caption">
+              <h1>Začinjeni som</h1>
+            </div>
+          </div>
+        
+          <div class="item">
+            <img src="img/pastrmka-u-foliji1200.png" alt="Pastrmka u foliji">
+            <div class="carousel-caption">
+              <h1>Pastrmka u foliji</h1>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Prošli</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Sledeći</span>
+        </a>
+      </div>
+    </div>
+
+    <!--O strani-->
+		<div id="opis" class="container-fluid text-center">
+			<div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"> 
+          <h2>O strani</h2><br>
+          <p>Ako volite da eksperimentišete sa hranom, volite različite ukuse, onda ste na pravom mestu. Na sajtu Dve ribice možete pronaći mnoge ukusne, zanimjive, jednostavne recepte. Recepti su vezani za jela pravljena od ribe. Naći ćete nekoliko recepata za pripremanje: šarana, soma, skuše, lososa...</p>
+        </div>
+	      <div class="col-xs-12 hidden-sm hidden-md hidden-lg"> 
+          <img src = "img/logo-ribe2.png" id = "slikaS" alt = "Veca slika loga"/>
+        </div>
+        <div class="hidden-xs col-sm-12 hidden-md hidden-lg"> 
+          <img src = "img/logo-ribe2.png" id = "slikaS" alt = "Veca slika loga"/>
+        </div> 
+        <div class="hidden-xs hidden-sm col-md-6 hidden-lg"> 
+          <img src = "img/logo-ribe2.png" id = "slikaM" alt = "Veca slika loga"/>
+        </div>
+        <div class="hidden-xs hidden-sm hidden-md col-lg-6"> 
+          <img src = "img/logo-ribe2.png" id = "slikaL" alt = "Veca slika loga"/>
+        </div> 
+      </div>
+		</div>
+
+    <!--Recepti-->
+    <!--PRVI RED-->
+    <div id="recepti" class = "container">
+	    <div class="container-fluid bg-3 text-center">
+	      <h2>Recepti</h2><br>
+	      <div class="row">
+	        <div class="col-xs-12 col-sm-6 col-lg-4"> 
+      			<div class="panel panel-success">
+          		<div class="panel-heading">Skuša iz rerne</div>
+          		<div class="panel-body img-responsive img-rounded"><img src="img/skusa-iz-rerne500.jpg" alt="Skuša iz rerne"></div>
+         			<div class="panel-footer"><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Recept1">Recept</button></div>    
+              <div class="modal fade" id="Recept1" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Skuša iz rerne</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-xs-12 hidden-sm hidden-md hidden-lg"> 
+                          <img src = "img/skusa-iz-rerne250.jpg" class = "jelaS img-rounded" alt = "Skuša iz rerne"/>
+                        </div>
+                        <div class="hidden-xs hidden-sm col-md-12 hidden-lg"> 
+                          <img src = "img/skusa-iz-rerne500.jpg" class = "jelaM img-rounded" alt = "Skuša iz rerne"/>
+                        </div>
+                        <div class="hidden-xs col-sm-12 hidden-md hidden-lg"> 
+                          <img src = "img/skusa-iz-rerne500.jpg" class = "jelaM img-rounded" alt = "Skuša iz rerne"/>
+                        </div>
+                        <div class="hidden-xs hidden-sm hidden-md col-lg-12"> 
+                          <img src = "img/skusa-iz-rerne750.jpg" class = "jelaL img-rounded" alt = "Skuša iz rerne"/>
+                        </div>
+                      </div>
+                      <div class="row">                     
+                        <div class="col-xs-12 col-sm-6 col-lg-4"> 
+                          <ul class = "tacke">
+                            <li>Sastojci za 4 skuše:</li>
+                            <li>100 ml maslinovog ulja</li>
+                            <li>1 ravna kašika suvog začina</li>
+                            <li>sok od 1/2 limuna</li>
+                            <li>1 kašičica belog luka u prahu</li>
+                            <li>1 kašika sušenog peršunovog lista</li>
+                            <li>1 kašika sušenog bosiljka</li>
+                            <li>1 kašičica sušene mirodjije</li>
+                            <li>1/2 kašičice bibera</li>
+                            <li>još mogu začini po želji, koje volite</li>
+                            <li>100 ml vode</li>
+                          </ul>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-8"> 
+                          <p class = "tekstS">
+                            Priprema:
+                            Umutiti ulje, sok od limuna i začine.
+                            Utrljati rukama ovu smesu oko skuši i unutra.
+                            Sve iskoristiti.
+                            To radite odmah u tepsiji u kojoj ćete ih i peči, da sve što bude od tog preliva curelo iscuri u tepsiju.
+                            Ostaviti da stoji 30 minuta.
+                            Najbolje u keramičkoj ili vatrostalnoj tepsiji da se peče jer se neće zalepiti.
+                            Skuši dodati vodu, prekriti folijom i peči u prethodno zagrejanoj rerni na 200 stepeni 30 minuta pa skinuti
+                            poliju i peći još 30 minuta.
+                            Skušu posle otkrivanja folije okrenuti pažljivo da bi se zapekla sa obe strane.
+                            Služiti uz salatu od blitve ili crnog i belog luka kao i uz rižoto.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      		  </div>
+    			</div>
+    			<div class="col-xs-12 col-sm-6 col-lg-4"> 
+      			<div class="panel panel-success">
+        			<div class="panel-heading">Pečeni šaran</div>
+        			<div class="panel-body img-responsive img-rounded"><img src="img/peceni-saran500.jpg" alt="Pečeni šaran"></div>
+       				<div class="panel-footer"><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Recept2">Recept</button></div>
+              <div class="modal fade" id="Recept2" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Pečeni šaran</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-xs-12 hidden-sm hidden-md hidden-lg"> 
+                          <img src = "img/peceni-saran250.jpg" class = "jelaS img-rounded" alt = "Pečeni šaran"/>
+                        </div>
+                        <div class="hidden-xs col-sm-12 hidden-md hidden-lg"> 
+                          <img src = "img/peceni-saran500.jpg" class = "jelaM img-rounded" alt = "Pečeni šaran"/>
+                        </div>
+                        <div class="hidden-xs hidden-sm col-md-12 hidden-lg"> 
+                          <img src = "img/peceni-saran500.jpg" class = "jelaM img-rounded" alt = "Pečeni šaran"/>
+                        </div>
+                        <div class="hidden-xs hidden-sm hidden-md col-lg-12"> 
+                          <img src = "img/peceni-saran750.jpg" class = "jelaL img-rounded" alt = "Pečeni šaran"/>
+                        </div> 
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-lg-4"> 
+                          <ul class = "tacke">
+                            <li>šaran (1,5-2 kg )</li>
+                            <li>200 gr posnog margarina</li>
+                            <li>4 čena belog luka</li>
+                            <li>1 manja glavica crnog luka</li>
+                            <li>250 ml belog vina</li>
+                            <li>2 kašike prezle</li>
+                            <li>2 lovorova list</li>
+                            <li>prešun</li>
+                            <li>kora jednog limuna</li>
+                            <li>ruzmarin</li>
+                            <li>so i biber</li>
+                          </ul>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-8"> 
+                          <p class = "tekstS">
+                            Priprema:
+                            Ulupajte margarin penasto, pa dodati peršun, koru limuna, ružmarin, so i biber pa sve izmešati da bude
+                            glatka smesa.
+                            Dodati ¡zgnječen beli luk i iseckan crni luk pa sve sjediniti.
+                            Ovom smesom namazati šarana iznutra i spolja.
+                            U tepsiju usuti malo ulja i belo vino pa staviti šarana da se peče na 180 stepeni 20 minuta.
+                            Izvaditi pa posuti prezlom i staviti lovorov list pa vratiti da se peče.
+                            Šaran je pečen kad fino porumeni, a možete proveriti tako sto ćete deo do glave malo podignuti i videti da
+                            li je pečeno oko kostiju, da nije crveno.
+                            Pečenog šarana poslužite sa mladim krompirićima i toplog.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      			</div>
+    			</div>
+    			<div class="col-xs-12 col-sm-6 col-lg-4"> 
+      			<div class="panel panel-success">
+        			<div class="panel-heading">Pastrmka u foliji</div>
+        			<div class="panel-body"><img src="img/pastrmka-u-foliji500.jpg" class="img-responsive img-rounded" alt="Pastrmka u foliji"></div>
+       				<div class="panel-footer"><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Recept3">Recept</button></div>
+              <div class="modal fade" id="Recept3" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Pastrmka u foliji</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-xs-12 hidden-sm hidden-md hidden-lg"> 
+                          <img src = "img/pastrmka-u-foliji250.jpg" class = "jelaS img-rounded" alt = "Pastrmka u foliji"/>
+                        </div>
+                        <div class="hidden-xs col-sm-12 hidden-md hidden-lg"> 
+                          <img src = "img/pastrmka-u-foliji500.jpg" class = "jelaM img-rounded" alt = "Pastrmka u foliji"/>
+                        </div>
+                        <div class="hidden-xs hidden-sm col-md-12 hidden-lg"> 
+                          <img src = "img/pastrmka-u-foliji500.jpg" class = "jelaM img-rounded" alt = "Pastrmka u foliji"/>
+                        </div>
+                        <div class="hidden-xs hidden-sm hidden-md col-lg-12"> 
+                          <img src = "img/pastrmka-u-foliji750.jpg" class = "jelaL img-rounded" alt = "Pastrmka u foliji"/>
+                        </div> 
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-lg-4"> 
+                          <ul class = "tacke">
+                            <li>4 pastrmki, svaka oko 250 gr</li>
+                            <li>140 gr margarina</li>
+                            <li>2 limuna</li>
+                            <li>so</li>
+                            <li>biber</li> 
+                            <li>peršun</li> 
+                            <li>mirodjija</li>
+                          </ul>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-8"> 
+                          <p class = "tekstS">
+                            Priprema:
+                            Pastrmke usolite, pobiberite, namažite margarinom i postavite na foliju.
+                            Pospite peršunom i mirodjijom, nacedite limunov sok, na svaku po pola limuna, umotajte i pecite u rerni 30
+                            minuta na 200 stepeni.
+                            Servirajte u foliji uz bareni krompir,grašak,razno povrće.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      			</div>
+    			</div>
+
+
+          <!--DRUGI RED-->
+	        <div class="col-xs-12 col-sm-6 col-lg-4"> 
+      			<div class="panel panel-success">
+        			<div class="panel-heading">Pijani šaran</div>
+        			<div class="panel-body"><img src="img/pijani-saran500.jpg" class="img-responsive img-rounded" alt="Pijani šaran"></div>
+       				<div class="panel-footer"><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Recept4">Recept</button></div>            
+              <div class="modal fade" id="Recept4" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Pijani šaran</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-xs-12 hidden-sm hidden-md hidden-lg"> 
+                          <img src = "img/pijani-saran250.jpg" class = "jelaS img-rounded" alt = "Pijani šaran"/>
+                        </div>
+                        <div class="hidden-xs col-sm-12 hidden-md hidden-lg"> 
+                          <img src = "img/pijani-saran500.jpg" class = "jelaM img-rounded" alt = "Pijani šaran"/>
+                        </div>
+                        <div class="hidden-xs hidden-sm col-md-12 hidden-lg"> 
+                          <img src = "img/pijani-saran500.jpg" class = "jelaM img-rounded" alt = "Pijani šaran"/>
+                        </div>
+                        <div class="hidden-xs hidden-sm hidden-md col-lg-12"> 
+                          <img src = "img/pijani-saran750.jpg" class = "jelaL img-rounded" alt = "Pijani šaran"/>
+                        </div> 
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-lg-4"> 
+                          <ul class = "tacke">
+                            <li>šaran oko 2, 5kg</li>
+                            <li>200-300 gr kiselih krastavaca</li>
+                            <li>1 limun</li>
+                            <li>ldl belog vina</li>
+                            <li>nekoliko režnjeva dimljene slanine (ako je post ne mora)</li>
+                            <li>vegeta</li>
+                            <li>so</li>
+                            <li>peršun</li>
+                            <li>limun</li>
+                          </ul>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-8"> 
+                          <p class = "tekstS">
+                            Priprema:
+                            Šarana staviti na pleh i posoliti, dodati malo ulja pa ga malo zapeći u rerni.
+                            Izvaditi, dodati limun, na kolutove isečen i poslagati u proreze u šaranu, posuti vegetom i peršunom, a u
+                            njega staviti krastavce i slaninu.
+                            vratiti u rernu da se peče i kad je gotovo dodati belo vino i peći još toliko da vino ispari.
+                            Kao prilog dodati mladi krompir, zelenu salatu ili pirinač a može i sve zajedno.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      			</div>
+    			</div>
+    			<div class="col-xs-12 col-sm-6 col-lg-4"> 
+      			<div class="panel panel-success">
+        			<div class="panel-heading">Začinjen som</div>
+        			<div class="panel-body"><img src="img/zacinjen-som500.jpg" class="img-responsive img-rounded" alt="Začinjen som"></div>
+       				<div class="panel-footer"><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Recept5">Recept</button></div>         
+              <div class="modal fade" id="Recept5" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Začinjen som</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-xs-12 hidden-sm hidden-md hidden-lg"> 
+                          <img src = "img/zacinjen-som250.jpg" class = "jelaS img-rounded" alt = "Začinjen som"/>
+                        </div>
+                        <div class="hidden-xs col-sm-12 hidden-md hidden-lg"> 
+                          <img src = "img/zacinjen-som500.jpg" class = "jelaM img-rounded" alt = "Začinjen som"/>
+                        </div>
+                        <div class="hidden-xs hidden-sm col-md-12 hidden-lg"> 
+                          <img src = "img/zacinjen-som500.jpg" class = "jelaM img-rounded" alt = "Začinjen som"/>
+                        </div>
+                        <div class="hidden-xs hidden-sm hidden-md col-lg-12"> 
+                          <img src = "img/zacinjen-som750.jpg" class = "jelaL img-rounded" alt = "Začinjen som"/>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-lg-4"> 
+                          <ul class = "tacke">
+                            <li>fileti soma, 4 komada, deblja</li>
+                            <li>2 kašike margarina na sobnoj temperaturi</li>
+                            <li>2 kašike seckanog svežeg korijandera ili peršuna</li>
+                            <li>2 čena belog luka</li>
+                            <li>1 limun</li>
+                            <li>1 kašika začina za ribu</li>
+                          </ul>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-8"> 
+                          <p class = "tekstS">
+                            Priprema: Izrendati koru od limuna pa iscediti limun, dodati korijander ili peršun, dodati beli luk, sitno iseckan, dodati
+                            margarin, začin za ribu pa izmešati sve. Svako parče ribe natapkati ovim prelivom. Zagrejati ulje u tiganju pa spustiti filet da se peče toliko da na krajevima dobije tamno braon boju i postane hrskava pa okrenuti da se zapeče i sa druge strane. Samo dva puta okretati ribu, čekati dok se ne zapeče i odvoji od tiganja. Izvaditi ribu na tanjir pa onu smesu od maslaca rastopiti, ako se već nije rastopila pa preliti po ribi. Služiti
+                            uz baren krompir, blitvu, pirinač...
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      			</div>
+    			</div>
+    			<div class="col-xs-12 col-sm-6 col-lg-4"> 
+            <div class="panel panel-success">
+              <div class="panel-heading">Losos u marinadi</div>
+              <div class="panel-body"><img src="img/MarinadaLosos500.jpg" class="img-responsive img-rounded" alt="Marinadiran losos"></div>
+              <div class="panel-footer"><button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#Recept6">Recept</button></div>
+              <div class="modal fade" id="Recept6" role="dialog">
+                <div class="modal-dialog modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h4 class="modal-title">Losos u marinadi</h4>
+                    </div>
+                    <div class="modal-body">
+                      <div class="row">
+                        <div class="col-xs-12 hidden-sm hidden-md hidden-lg"> 
+                          <img src = "img/MarinadaLosos250.jpg" class = "jelaS img-rounded" alt = "Losos u marinadi"/>
+                        </div>
+                        <div class="hidden-xs col-sm-12 hidden-md hidden-lg"> 
+                          <img src = "img/MarinadaLosos500.jpg" class = "jelaM img-rounded" alt = "Losos u marinadi"/>
+                        </div>
+                        <div class="hidden-xs hidden-sm col-md-12 hidden-lg"> 
+                          <img src = "img/MarinadaLosos500.jpg" class = "jelaM img-rounded" alt = "Losos u marinadi"/>
+                        </div>
+                        <div class="hidden-xs hidden-sm hidden-md col-lg-12"> 
+                          <img src = "img/MarinadaLosos750.jpg" class = "jelaL img-rounded" alt = "Losos u marinadi"/>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-lg-4"> 
+                          <ul class = "tacke">
+                            <li>5 šolja maslinovog ulja</li>
+                            <li>2 kašike soja sosa</li>
+                            <li>kašika limunovog soka</li>
+                            <li>2 kašike susamovog ulja</li>
+                            <li>2 kašike braon šećera</li>
+                            <li>2 čena belog luka</li>
+                            <li>1 kašika rendanog svežeg đumbira</li>
+                            <li>1 kašika susama</li>
+                            <li>4 mlada luka, sitno iseckana</li>
+                          </ul>
+                        </div>
+                        <div class="col-xs-12 col-md-6 col-lg-8"> 
+                          <p class = "tekstS">
+                            Priprema: U posudi umutiti maslinovo ulje, soja sos, limunov sok,
+                            susamovo ulje, smeđi šećer, beli luk, đumbir, semenke susama i mladi luk.
+                            Filete lososa preliti smesom i dodati đumbir. Ostaviti da se marinara u
+                            posudi sa poklopcem najmanje 30 minuta pre pripreme. Marinirani losos
+                            spremati na roštilju ili ga ispeći u rerni.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--DRUGI RED KRAJ-->
+  	      </div>
+  	    </div>
+      </div>
+    </div>
+
+      <!--Forma-->
+      <div id = "forma" class="container-fluid bg-3 text-center">
+        <div class="container text-center">
+          <div class = "row">
+            <div class="col-xs-12 col-sm-4 col-lg-6">
+              <h3>Biranje najboljeg recepta</h3>
+              <form>
+                <div class="form-group">
+                  <label for="emailP">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios1" value="1">
+                    Skuša iz rerne
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios2" value="2" checked>
+                    Pečeni šaran
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios3" value="3">
+                    Pastrmka u foliji
+                  </label>
+                </div>
+                <div clas
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios4" value="4">
+                    Pijani šaran
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios5" value="5">
+                    Začinjen som
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios" id="optionsRadios6" value="6">
+                    Losos u marinadi
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+              </form>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-lg-6">
+              <h3>Pobednik proslog meseca</h3>
+              <h4>Losos u marinadi</h4>
+              <div class="panel-body img-responsive spec">
+                <img src="img/MarinadaLosos250.jpg" alt="Losos u marinadi"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--GALERIJA-->
+      <div id = "galerija">
+        <div class="container text-center">
+          <h2>Galerija</h2>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img src="img/MarinadaLosos250.jpg" alt="Losos" >
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img src="img/pastrmka-u-foliji250.jpg" alt="Pastrmka" >
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img src="img/peceni-saran250.jpg" alt="Šaran" >
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img src="img/pijani-saran250.jpg" alt="Šaran" >
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img src="img/skusa-iz-rerne250.jpg" alt="Skusa" >
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <img src="img/zacinjen-som250.jpg" alt="Som" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Autor-->
+      <div id = "autor">
+        <div class = "container text-center">
+          <img src = "img/Autor.png" class="img-circle img-responsive" alt = "Autor"/>
+          <p>
+          Ime i prezime: Sreten Vladisavljević;<br />
+          Datum rođenja: 26.08.1998.;<br />
+          Mesto rođenja: Beograd;<br />
+          Broj indeksa: 123/17;<br />
+          Završio sam Gimnaziju "Sveti Sava" u Beogradu i sada sam student prve godine na Visokoj ICT školi na smeru Internet tehnologije.</p>
+          <div id="vrh">
+            <a onclick="vrh()"><span class = "glyphicon glyphicon-arrow-up"></span></a>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Futer-->
+      <div id="footer">
+        <div class="container text-center">
+          <div class = "row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-2">
+              <h2 id = "LN1">Dve <span id = "LN2">ribice</span></h2>
+            </div>
+            <div class="col-xs-6 col-sm-5 col-md-6 col-lg-5">
+              <ul id = "redF1">
+                <li><a href="#opis">O strani</a></li>
+                <li><a href="#recepti">Recepti</a></li>
+                <li><a href="#galerija">Galerija</a></li>
+                <li><a href="#forma">Glasanje</a></li>
+                <li><a href="#autor">Autor</a></li>
+                <li><a href="sitemap.xml">Site map</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 col-sm-7 col-md-6 col-lg-5">
+              <ul id = "redF2">
+                <li><a href="https://www.facebook.com/" class="fa fa-facebook"></a></li>
+                <li><a href="https://twitter.com/" class="fa fa-twitter"></a></li>
+                <li><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
+                <li><a href="rss/rss.xml" class="fa fa-rss"></a></li>
+              </ul>
+            </div>
+          </div>
+          <p><i>Ovaj sajt je nastao kao školski projekat na Visokoj ICT školi u Beogradu.</i></p>
+          <p>Copyright <span class = "glyphicon glyphicon-copyright-mark"></span> Sreten Vladisavljevic 123/17</p>
+        </div>
+      </div>
+		</div>
+
+    <!--MODAL ZA LOGOVANJE-->
+
+    <div class="modal" id="id01" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Logovanje</h4>
+          </div>
+          <div class="modal-body">
+            <form class = "log" action = "#">
+              <label for="ime"><b>Korisničko ime</b></label>
+              <br/>
+              <input type="text" placeholder="Upiši ime" name="ime" required>
+              <br/>
+              <br/>
+              <label for="pas"><b>Šifra</b></label>
+              <br/>
+              <input type="password" placeholder="Upiši šifru" name="pas" required>
+              <br/>
+              <br/>
+              <button type="submit">Logovanje</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Zapamti nalog
+              </label>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vrh.js"></script>
+	</body>
+</html>
